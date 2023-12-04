@@ -1,0 +1,2719 @@
+Script started on 2020-11-21 23:37:56-05:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="133" LINES="50"]
+]0;shaunak@shaunak-Latitude-E7440: ~/cmpsc311/scattergather4-ssw5250[01;32mshaunak@shaunak-Latitude-E7440[00m:[01;34m~/cmpsc311/scattergather4-ssw5250[00m$ ./sg_sim -v cmpsc311-assign4-workload.txt[3Pcmpsc311-assign4-workload.txt-v cmpsc311-assign4-workload.txt
+Sat Nov 21 23:37:58 2020 [INFO] Opened workload for reading, [cmpsc311-assign4-workload.txt].
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] CMPSC311 SG : executing workload [cmpsc311-assign4-workload.txt]
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-20 OPEN
+Sat Nov 21 23:37:58 2020 [INFO] Initializing local endpoint ...
+Sat Nov 21 23:37:58 2020 [SG_SERVICE] sgInitialize: initialization system complete.
+Sat Nov 21 23:37:58 2020 [SG_SERVICE] sgServicePost: Assigned new nodel ID [2686739655l] to local node.
+Sat Nov 21 23:37:58 2020 [INFO] Completed initialization of node (local node ID 8189656471766852807
+Sat Nov 21 23:37:58 2020 [INFO] Successfully initialized the cache
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] SG Open file [cmpsc311-f20-sample-20]
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-4 OPEN
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] SG Open file [cmpsc311-f20-sample-4]
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-7 OPEN
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] SG Open file [cmpsc311-f20-sample-7]
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-8 OPEN
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] SG Open file [cmpsc311-f20-sample-8]
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-9 OPEN
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] SG Open file [cmpsc311-f20-sample-9]
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-10 OPEN
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] SG Open file [cmpsc311-f20-sample-10]
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-5 OPEN
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] SG Open file [cmpsc311-f20-sample-5]
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-18 OPEN
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] SG Open file [cmpsc311-f20-sample-18]
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-16 OPEN
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] SG Open file [cmpsc311-f20-sample-16]
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-1 OPEN
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] SG Open file [cmpsc311-f20-sample-1]
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-6 OPEN
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] SG Open file [cmpsc311-f20-sample-6]
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-13 OPEN
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] SG Open file [cmpsc311-f20-sample-13]
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-11 OPEN
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] SG Open file [cmpsc311-f20-sample-11]
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-12 OPEN
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] SG Open file [cmpsc311-f20-sample-12]
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-2 OPEN
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] SG Open file [cmpsc311-f20-sample-2]
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-14 OPEN
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] SG Open file [cmpsc311-f20-sample-14]
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-19 OPEN
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] SG Open file [cmpsc311-f20-sample-19]
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-15 OPEN
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] SG Open file [cmpsc311-f20-sample-15]
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-17 OPEN
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] SG Open file [cmpsc311-f20-sample-17]
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-3 OPEN
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] SG Open file [cmpsc311-f20-sample-3]
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-4 WRITE off=0, sz=512 [4ohizB}/ 6 <more data follows>]
+
+
+****   W R I T E wcount is 1 *****  
+
+Sat Nov 21 23:37:58 2020 [SG_SERVICE] sgCreateBlock: using new node [18312071571214459512]
+Sat Nov 21 23:37:58 2020 [SG_SERVICE] sgCreateBlock: Create new block [4619618730378143448] on node [18312071571214459512]
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-4], 512 bytes at position 0
+Sat Nov 21 23:37:58 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-17 WRITE off=0, sz=512 [bOv>AHp=|< <more data follows>]
+
+
+****   W R I T E wcount is 2 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [6386700381844586188]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [12870196627075476745] on node [6386700381844586188]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-17], 512 bytes at position 0
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-7 WRITE off=0, sz=512 [xywsqyhw(e <more data follows>]
+
+
+****   W R I T E wcount is 3 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [13292607210348775045] on node [6386700381844586188]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-7], 512 bytes at position 0
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-11 WRITE off=0, sz=512 [(1Y#H [b1S <more data follows>]
+
+
+****   W R I T E wcount is 4 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [7048138608991844371] on node [6386700381844586188]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-11], 512 bytes at position 0
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-18 WRITE off=0, sz=512 [8ZPqg1V6jq <more data follows>]
+
+
+****   W R I T E wcount is 5 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [8848517439705542074] on node [18312071571214459512]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-18], 512 bytes at position 0
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-11 WRITE off=512, sz=512 [5rE0n|95Eb <more data follows>]
+
+
+****   W R I T E wcount is 6 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3836524563l] from node [3132276428l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3836524563l] on node [3132276428l]
+curr_elem is 0 maxElem is 32
+### CACHED node -1162690868 block -458442733
+
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-11], 512 bytes at position 512
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-3 WRITE off=0, sz=512 [S8Vls#>N@g <more data follows>]
+
+
+****   W R I T E wcount is 7 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [17944651554806131529]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [16877344295216264246] on node [17944651554806131529]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-3], 512 bytes at position 0
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-11 WRITE off=1024, sz=512 [3ATH8/ZSqh <more data follows>]
+
+
+****   W R I T E wcount is 8 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [12594222394199725043]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [2235775264663575833] on node [12594222394199725043]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-11], 512 bytes at position 1024
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-18 WRITE off=512, sz=512 [:j-O+@IYat <more data follows>]
+
+
+****   W R I T E wcount is 9 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3732893114l] from node [2412012152l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3732893114l] on node [2412012152l]
+curr_elem is 1 maxElem is 32
+### CACHED node -1882955144 block -562074182
+
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-18], 512 bytes at position 512
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-20 WRITE off=0, sz=512 [Qslm}.=avw <more data follows>]
+
+
+****   W R I T E wcount is 10 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [6665737122082605022]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [12983333456877646958] on node [6665737122082605022]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-20], 512 bytes at position 0
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-13 WRITE off=0, sz=512 [GnmK9OF8=F <more data follows>]
+
+
+****   W R I T E wcount is 11 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [16760779053604735757] on node [6386700381844586188]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-13], 512 bytes at position 0
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-3 WRITE off=512, sz=512 [;qHe.Z&r=N <more data follows>]
+
+
+****   W R I T E wcount is 12 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1817490486l] from node [2791402313l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [1817490486l] on node [2791402313l]
+curr_elem is 2 maxElem is 32
+### CACHED node -1503564983 block 1817490486
+
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-3], 512 bytes at position 512
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-11 WRITE off=1536, sz=512 [PAc-2+&ehz <more data follows>]
+
+
+****   W R I T E wcount is 13 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [4024474905l] from node [1552634867l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [4024474905l] on node [1552634867l]
+curr_elem is 3 maxElem is 32
+### CACHED node 1552634867 block -270492391
+
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-11], 512 bytes at position 1536
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-8 WRITE off=0, sz=512 [J}KII=lnnz <more data follows>]
+
+
+****   W R I T E wcount is 14 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [16462877611670094719] on node [12594222394199725043]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-8], 512 bytes at position 0
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-10 WRITE off=0, sz=512 [Fhd/>>{H(2 <more data follows>]
+
+
+****   W R I T E wcount is 15 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [15155677135014404758] on node [18312071571214459512]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-10], 512 bytes at position 0
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-1 WRITE off=0, sz=512 [ 4r8Da!aO8 <more data follows>]
+
+
+****   W R I T E wcount is 16 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [8408883800886115062] on node [6665737122082605022]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-1], 512 bytes at position 0
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-10 WRITE off=512, sz=512 [-|p/?o^@4] <more data follows>]
+
+
+****   W R I T E wcount is 17 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1527456406l] from node [2412012152l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [1527456406l] on node [2412012152l]
+curr_elem is 4 maxElem is 32
+### CACHED node -1882955144 block 1527456406
+
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-10], 512 bytes at position 512
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-8 WRITE off=512, sz=512 [+I =pI(nL6 <more data follows>]
+
+
+****   W R I T E wcount is 18 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3092497279l] from node [1552634867l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3092497279l] on node [1552634867l]
+curr_elem is 5 maxElem is 32
+### CACHED node 1552634867 block -1202470017
+
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-8], 512 bytes at position 512
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-19 WRITE off=0, sz=512 [h!8dOa3n7e <more data follows>]
+
+
+****   W R I T E wcount is 19 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [13643060724981579175]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [6465310199598397233] on node [13643060724981579175]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-19], 512 bytes at position 0
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-17 WRITE off=512, sz=512 [sV$^v H/=/ <more data follows>]
+
+
+****   W R I T E wcount is 20 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [2722344201l] from node [3132276428l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [2722344201l] on node [3132276428l]
+curr_elem is 6 maxElem is 32
+### CACHED node -1162690868 block -1572623095
+
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-17], 512 bytes at position 512
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-6 WRITE off=0, sz=512 [I#/.]Cm_rO <more data follows>]
+
+
+****   W R I T E wcount is 21 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [15256481426835344078] on node [13643060724981579175]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-6], 512 bytes at position 0
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-14 WRITE off=0, sz=512 [HUx8teDw2M <more data follows>]
+
+
+****   W R I T E wcount is 22 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [14716330547919708630]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [17311467483828146795] on node [14716330547919708630]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-14], 512 bytes at position 0
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-2 WRITE off=0, sz=512 [JD9OUjCNW! <more data follows>]
+
+
+****   W R I T E wcount is 23 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [2368214772987292813] on node [6665737122082605022]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-2], 512 bytes at position 0
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-5 WRITE off=0, sz=512 [MdGD<C(<iQ <more data follows>]
+
+
+****   W R I T E wcount is 24 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [8775596425547568186]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [4268454762940943126] on node [8775596425547568186]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-5], 512 bytes at position 0
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-12 WRITE off=0, sz=512 [I$N~&wUOYF <more data follows>]
+
+
+****   W R I T E wcount is 25 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [13805711382403800802] on node [6386700381844586188]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-12], 512 bytes at position 0
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-6 WRITE off=512, sz=512 [=jpA;0&,$d <more data follows>]
+
+
+****   W R I T E wcount is 26 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [2162002638l] from node [27016615l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [2162002638l] on node [27016615l]
+curr_elem is 7 maxElem is 32
+### CACHED node 27016615 block -2132964658
+
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-6], 512 bytes at position 512
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-13 WRITE off=512, sz=512 [.z4QWYFjd6 <more data follows>]
+
+
+****   W R I T E wcount is 27 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [820710157l] from node [3132276428l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [820710157l] on node [3132276428l]
+curr_elem is 8 maxElem is 32
+### CACHED node -1162690868 block 820710157
+
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-13], 512 bytes at position 512
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-18 WRITE off=1024, sz=512 [m&+XTW/dw+ <more data follows>]
+
+
+****   W R I T E wcount is 28 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [14206504972096191464] on node [6665737122082605022]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-18], 512 bytes at position 1024
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-9 WRITE off=0, sz=512 [IC:ILuuYu8 <more data follows>]
+
+
+****   W R I T E wcount is 29 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [15856570470997662776]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [3172936922349044977] on node [15856570470997662776]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-9], 512 bytes at position 0
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-6 WRITE off=1024, sz=512 [xBHN2HQdj< <more data follows>]
+
+
+****   W R I T E wcount is 30 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [13135429847164169448]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [12090760763829683816] on node [13135429847164169448]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-6], 512 bytes at position 1024
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-13 WRITE off=1024, sz=512 [vM@ZM+<;eG <more data follows>]
+
+
+****   W R I T E wcount is 31 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [17715779971725756995]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [15982777465431042332] on node [17715779971725756995]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-13], 512 bytes at position 1024
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-13 WRITE off=1536, sz=512 [7[$zWzN+,R <more data follows>]
+
+
+****   W R I T E wcount is 32 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [2804066588l] from node [2779875907l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [2804066588l] on node [2779875907l]
+curr_elem is 9 maxElem is 32
+### CACHED node -1515091389 block -1490900708
+
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-13], 512 bytes at position 1536
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-5 WRITE off=512, sz=512 [31[CR/zCg< <more data follows>]
+
+
+****   W R I T E wcount is 33 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3706407702l] from node [888362042l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3706407702l] on node [888362042l]
+curr_elem is 10 maxElem is 32
+### CACHED node 888362042 block -588559594
+
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-5], 512 bytes at position 512
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-8 WRITE off=1024, sz=512 [):]}3i6g{2 <more data follows>]
+
+
+****   W R I T E wcount is 34 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [3223923721676285984]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [3650944066088987225] on node [3223923721676285984]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-8], 512 bytes at position 1024
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-1 WRITE off=512, sz=512 [$iI7[=NB/l <more data follows>]
+
+
+****   W R I T E wcount is 35 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3311041270l] from node [2413709278l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3311041270l] on node [2413709278l]
+curr_elem is 11 maxElem is 32
+### CACHED node -1881258018 block -983926026
+
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-1], 512 bytes at position 512
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-18 WRITE off=1536, sz=512 [;/@^2go J[ <more data follows>]
+
+
+****   W R I T E wcount is 36 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3114089448l] from node [2413709278l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3114089448l] on node [2413709278l]
+curr_elem is 12 maxElem is 32
+### CACHED node -1881258018 block -1180877848
+
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-18], 512 bytes at position 1536
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-9 WRITE off=512, sz=512 [&#6APis9aP <more data follows>]
+
+
+****   W R I T E wcount is 37 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3881174257l] from node [3888356408l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3881174257l] on node [3888356408l]
+curr_elem is 13 maxElem is 32
+### CACHED node -406610888 block -413793039
+
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-9], 512 bytes at position 512
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-16 WRITE off=0, sz=512 [P[7z+^~&,e <more data follows>]
+
+
+****   W R I T E wcount is 38 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [4392651165145735752]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [3529260454803754734] on node [4392651165145735752]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-16], 512 bytes at position 0
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-11 WRITE off=2048, sz=512 [+_4Le=S#je <more data follows>]
+
+
+****   W R I T E wcount is 39 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [10175600039053182683]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [12740310082645160628] on node [10175600039053182683]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-11], 512 bytes at position 2048
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-18 WRITE off=2048, sz=512 [0F#B&M[^qn <more data follows>]
+
+
+****   W R I T E wcount is 40 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [15953727110965528372] on node [13643060724981579175]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-18], 512 bytes at position 2048
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-20 WRITE off=512, sz=512 [+eHJHmH2?l <more data follows>]
+
+
+****   W R I T E wcount is 41 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [2309157998l] from node [2413709278l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [2309157998l] on node [2413709278l]
+curr_elem is 14 maxElem is 32
+### CACHED node -1881258018 block -1985809298
+
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-20], 512 bytes at position 512
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-10 WRITE off=1024, sz=512 [ee8afzN*>j <more data follows>]
+
+
+****   W R I T E wcount is 42 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [18277885356592481151]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [5024101125131278529] on node [18277885356592481151]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-10], 512 bytes at position 1024
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-14 WRITE off=512, sz=512 [Jw<:~}S0kc <more data follows>]
+
+
+****   W R I T E wcount is 43 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3662500459l] from node [2986074582l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3662500459l] on node [2986074582l]
+curr_elem is 15 maxElem is 32
+### CACHED node -1308892714 block -632466837
+
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-14], 512 bytes at position 512
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-5 WRITE off=1024, sz=512 [LRyYP#cKaN <more data follows>]
+
+
+****   W R I T E wcount is 44 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [16879804289244759951] on node [15856570470997662776]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-5], 512 bytes at position 1024
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-19 WRITE off=512, sz=512 [wZ$Gel>:r4 <more data follows>]
+
+
+****   W R I T E wcount is 45 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [835041073l] from node [27016615l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [835041073l] on node [27016615l]
+curr_elem is 16 maxElem is 32
+### CACHED node 27016615 block 835041073
+
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-19], 512 bytes at position 512
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-7 WRITE off=512, sz=512 [u!M/&#77[E <more data follows>]
+
+
+****   W R I T E wcount is 46 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [2678228613l] from node [3132276428l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [2678228613l] on node [3132276428l]
+curr_elem is 17 maxElem is 32
+### CACHED node -1162690868 block -1616738683
+
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-7], 512 bytes at position 512
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-1 WRITE off=1024, sz=512 [[5N,Fu|h06 <more data follows>]
+
+
+****   W R I T E wcount is 47 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [5482319404198388439] on node [6665737122082605022]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-1], 512 bytes at position 1024
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-19 WRITE off=1024, sz=512 [$ta)!u54;h <more data follows>]
+
+
+****   W R I T E wcount is 48 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [151035826996552519] on node [10175600039053182683]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-19], 512 bytes at position 1024
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-15 WRITE off=0, sz=512 [_5W.f/6M9| <more data follows>]
+
+
+****   W R I T E wcount is 49 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [9955870963790506524]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [6124537044397326244] on node [9955870963790506524]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-15], 512 bytes at position 0
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-4 WRITE off=512, sz=512 [gb;o+ThIbX <more data follows>]
+
+
+****   W R I T E wcount is 50 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1844324056l] from node [2412012152l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [1844324056l] on node [2412012152l]
+curr_elem is 18 maxElem is 32
+### CACHED node -1882955144 block 1844324056
+
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-4], 512 bytes at position 512
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-18 WRITE off=2560, sz=512 [:V(mVC>YFa <more data follows>]
+
+
+****   W R I T E wcount is 51 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3969812276l] from node [27016615l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3969812276l] on node [27016615l]
+curr_elem is 19 maxElem is 32
+### CACHED node 27016615 block -325155020
+
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-18], 512 bytes at position 2560
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-8 WRITE off=1536, sz=512 [kP}}ts/h.Y <more data follows>]
+
+
+****   W R I T E wcount is 52 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3658345049l] from node [897083424l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3658345049l] on node [897083424l]
+curr_elem is 20 maxElem is 32
+### CACHED node 897083424 block -636622247
+
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-8], 512 bytes at position 1536
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-12 WRITE off=512, sz=512 [x_zsJ)>^uX <more data follows>]
+
+
+****   W R I T E wcount is 53 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1136582370l] from node [3132276428l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [1136582370l] on node [3132276428l]
+curr_elem is 21 maxElem is 32
+### CACHED node -1162690868 block 1136582370
+
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-12], 512 bytes at position 512
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-10 WRITE off=1536, sz=512 [+/p5Lt~RVk <more data follows>]
+
+
+****   W R I T E wcount is 54 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3205961921l] from node [889340799l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3205961921l] on node [889340799l]
+curr_elem is 22 maxElem is 32
+### CACHED node 889340799 block -1089005375
+
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-10], 512 bytes at position 1536
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-10 WRITE off=2048, sz=512 [W^|VYLsf~o <more data follows>]
+
+
+****   W R I T E wcount is 55 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [4841169619701051261] on node [13643060724981579175]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-10], 512 bytes at position 2048
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-16 WRITE off=512, sz=512 []hbNl/R?ln <more data follows>]
+
+
+****   W R I T E wcount is 56 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1349078766l] from node [548905544l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [1349078766l] on node [548905544l]
+curr_elem is 23 maxElem is 32
+### CACHED node 548905544 block 1349078766
+
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-16], 512 bytes at position 512
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-4 WRITE off=1024, sz=512 [e,*--0/ly/ <more data follows>]
+
+
+****   W R I T E wcount is 57 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [7266575608827354529]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [9703320348414897685] on node [7266575608827354529]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-4], 512 bytes at position 1024
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-20 WRITE off=1024, sz=512 [5T~TLmfIsP <more data follows>]
+
+
+****   W R I T E wcount is 58 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [13064484679985841359]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [5959046161731758036] on node [13064484679985841359]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-20], 512 bytes at position 1024
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-10 WRITE off=2560, sz=512 [AjH^qa)dA1 <more data follows>]
+
+
+****   W R I T E wcount is 59 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [2545004413l] from node [27016615l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [2545004413l] on node [27016615l]
+curr_elem is 24 maxElem is 32
+### CACHED node 27016615 block -1749962883
+
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-10], 512 bytes at position 2560
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-17 WRITE off=1024, sz=512 [},8G{-2E/f <more data follows>]
+
+
+****   W R I T E wcount is 60 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [2207950692757275561] on node [13064484679985841359]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-17], 512 bytes at position 1024
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-11 WRITE off=2560, sz=512 [?7~DZ>9,HW <more data follows>]
+
+
+****   W R I T E wcount is 61 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3831788212l] from node [2822194907l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3831788212l] on node [2822194907l]
+curr_elem is 25 maxElem is 32
+### CACHED node -1472772389 block -463179084
+
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-11], 512 bytes at position 2560
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-7 WRITE off=1024, sz=512 [(l9uolO,6) <more data follows>]
+
+
+****   W R I T E wcount is 62 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [13183791141589071645] on node [13135429847164169448]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-7], 512 bytes at position 1024
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-20 WRITE off=1536, sz=512 [$r57FRZysT <more data follows>]
+
+
+****   W R I T E wcount is 63 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1714235348l] from node [202818767l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [1714235348l] on node [202818767l]
+curr_elem is 26 maxElem is 32
+### CACHED node 202818767 block 1714235348
+
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-20], 512 bytes at position 1536
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-3 WRITE off=1024, sz=512 [e~u{I%g%(, <more data follows>]
+
+
+****   W R I T E wcount is 64 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [18163720910073781574]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [2291538089431134292] on node [18163720910073781574]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-3], 512 bytes at position 1024
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-10 WRITE off=3072, sz=512 [z:n7jVM?A, <more data follows>]
+
+
+****   W R I T E wcount is 65 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [4996962145998088515] on node [13064484679985841359]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-10], 512 bytes at position 3072
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-13 WRITE off=2048, sz=512 [ntsK?hL0Ow <more data follows>]
+
+
+****   W R I T E wcount is 66 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [6622079806634781287] on node [17715779971725756995]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-13], 512 bytes at position 2048
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-10 WRITE off=3584, sz=512 [deZYIYL*Hj <more data follows>]
+
+
+****   W R I T E wcount is 67 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3293194563l] from node [202818767l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3293194563l] on node [202818767l]
+curr_elem is 27 maxElem is 32
+### CACHED node 202818767 block -1001772733
+
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-10], 512 bytes at position 3584
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-17 WRITE off=1536, sz=512 [ofAnRV>{b> <more data follows>]
+
+
+****   W R I T E wcount is 68 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [4083155881l] from node [202818767l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [4083155881l] on node [202818767l]
+curr_elem is 28 maxElem is 32
+### CACHED node 202818767 block -211811415
+
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-17], 512 bytes at position 1536
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-17 WRITE off=2048, sz=512 [J*iq<!/y.] <more data follows>]
+
+
+****   W R I T E wcount is 69 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [7068311963118184479] on node [14716330547919708630]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-17], 512 bytes at position 2048
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-5 WRITE off=1536, sz=512 []PY4imNtnp <more data follows>]
+
+
+****   W R I T E wcount is 70 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1787594639l] from node [3888356408l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [1787594639l] on node [3888356408l]
+curr_elem is 29 maxElem is 32
+### CACHED node -406610888 block 1787594639
+
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-5], 512 bytes at position 1536
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-5 WRITE off=2048, sz=512 [W)G5vY#H=^ <more data follows>]
+
+
+****   W R I T E wcount is 71 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [5557537784422609759] on node [15856570470997662776]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-5], 512 bytes at position 2048
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-10 WRITE off=4096, sz=512 [wP<  m,l+U <more data follows>]
+
+
+****   W R I T E wcount is 72 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [12831473117915448691]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [346214242814920052] on node [12831473117915448691]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-10], 512 bytes at position 4096
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-10 WRITE off=4608, sz=512 [dD0NiuZ^Rf <more data follows>]
+
+
+****   W R I T E wcount is 73 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [4280943988l] from node [307430771l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [4280943988l] on node [307430771l]
+curr_elem is 30 maxElem is 32
+### CACHED node 307430771 block -14023308
+
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-10], 512 bytes at position 4608
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-15 WRITE off=512, sz=512 [>n.K!]+O[a <more data follows>]
+
+
+****   W R I T E wcount is 74 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [554041252l] from node [2723932700l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [554041252l] on node [2723932700l]
+curr_elem is 31 maxElem is 32
+### CACHED node -1571034596 block 554041252
+
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-15], 512 bytes at position 512
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-20 WRITE off=2048, sz=512 [ez;pp!E/]O <more data follows>]
+
+
+****   W R I T E wcount is 75 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [10154602899534678782] on node [8775596425547568186]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-20], 512 bytes at position 2048
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-20 WRITE off=2560, sz=512 [@4OK5FP?,N <more data follows>]
+
+
+****   W R I T E wcount is 76 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [636127998l] from node [888362042l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [636127998l] on node [888362042l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-20], 512 bytes at position 2560
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-4 WRITE off=1536, sz=512 [(AdRf=t=r. <more data follows>]
+
+
+****   W R I T E wcount is 77 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1293348373l] from node [699145633l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [1293348373l] on node [699145633l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-4], 512 bytes at position 1536
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-13 WRITE off=2560, sz=512 [86&X@Nho4k <more data follows>]
+
+
+****   W R I T E wcount is 78 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3032541799l] from node [2779875907l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3032541799l] on node [2779875907l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-13], 512 bytes at position 2560
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-19 WRITE off=1536, sz=512 [/yXF+0Ay&@ <more data follows>]
+
+
+****   W R I T E wcount is 79 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3497829191l] from node [2822194907l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3497829191l] on node [2822194907l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-19], 512 bytes at position 1536
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-17 WRITE off=2560, sz=512 [ J6~ZRw%b$ <more data follows>]
+
+
+****   W R I T E wcount is 80 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3947735071l] from node [2986074582l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3947735071l] on node [2986074582l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-17], 512 bytes at position 2560
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-15 WRITE off=1024, sz=512 [L[Z#T7>6NV <more data follows>]
+
+
+****   W R I T E wcount is 81 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [12958068661798019040] on node [8775596425547568186]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-15], 512 bytes at position 1024
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-20 WRITE off=3072, sz=512 [HoiFRj!p_9 <more data follows>]
+
+
+****   W R I T E wcount is 82 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [16767818791423271036]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [12710556018979544926] on node [16767818791423271036]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-20], 512 bytes at position 3072
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-18 WRITE off=3072, sz=512 [Y-Ni>jZ[*B <more data follows>]
+
+
+****   W R I T E wcount is 83 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [7771206659982113303]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [12751419367468598410] on node [7771206659982113303]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-18], 512 bytes at position 3072
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-19 WRITE off=2048, sz=512 [w5_UnIfn:. <more data follows>]
+
+
+****   W R I T E wcount is 84 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [9810144250009766028]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [5529784504377717048] on node [9810144250009766028]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-19], 512 bytes at position 2048
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-13 WRITE off=3072, sz=512 [*<JxLQnu2G <more data follows>]
+
+
+****   W R I T E wcount is 85 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [17798406001949081928]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [4307373544086203797] on node [17798406001949081928]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-13], 512 bytes at position 3072
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-12 WRITE off=1024, sz=512 [r)mA5TR9-, <more data follows>]
+
+
+****   W R I T E wcount is 86 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [1435060930097509169] on node [4392651165145735752]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-12], 512 bytes at position 1024
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-6 WRITE off=1536, sz=512 [* 1R:8(x|u <more data follows>]
+
+
+****   W R I T E wcount is 87 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3897329256l] from node [4232621288l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3897329256l] on node [4232621288l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-6], 512 bytes at position 1536
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-18 WRITE off=3584, sz=512 [TT~pTm-sQi <more data follows>]
+
+
+****   W R I T E wcount is 88 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3556803722l] from node [2623683095l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3556803722l] on node [2623683095l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-18], 512 bytes at position 3584
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-10 WRITE off=5120, sz=512 [CDo}{|xr;_ <more data follows>]
+
+
+****   W R I T E wcount is 89 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [6351061174980068805]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [9008948905135583668] on node [6351061174980068805]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-10], 512 bytes at position 5120
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-17 WRITE off=3072, sz=512 [_w1gdlIEan <more data follows>]
+
+
+****   W R I T E wcount is 90 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [11977712345623523978]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [15958119358508444631] on node [11977712345623523978]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-17], 512 bytes at position 3072
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-5 WRITE off=2560, sz=512 [8T$}i2*t<u <more data follows>]
+
+
+****   W R I T E wcount is 91 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [2052207455l] from node [3888356408l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [2052207455l] on node [3888356408l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-5], 512 bytes at position 2560
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-17 WRITE off=3584, sz=512 [N*a k T15~ <more data follows>]
+
+
+****   W R I T E wcount is 92 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3207474135l] from node [4004737674l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3207474135l] on node [4004737674l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-17], 512 bytes at position 3584
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-5 WRITE off=3072, sz=512 [(n)C~#/yZ; <more data follows>]
+
+
+****   W R I T E wcount is 93 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [15777026729022979946]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [12613632080090069213] on node [15777026729022979946]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-5], 512 bytes at position 3072
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-10 WRITE off=5632, sz=512 [faj*%. j@~ <more data follows>]
+
+
+****   W R I T E wcount is 94 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [977285556l] from node [1098270149l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [977285556l] on node [1098270149l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-10], 512 bytes at position 5632
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-5 WRITE off=3584, sz=512 [rhBvVTh u6 <more data follows>]
+
+
+****   W R I T E wcount is 95 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [87914717l] from node [1128398698l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [87914717l] on node [1128398698l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-5], 512 bytes at position 3584
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-3 WRITE off=1536, sz=512 [@AnWT[/][t <more data follows>]
+
+
+****   W R I T E wcount is 96 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1372713044l] from node [2756205894l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [1372713044l] on node [2756205894l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-3], 512 bytes at position 1536
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-5 WRITE off=4096, sz=512 [%3 )}FWT&W <more data follows>]
+
+
+****   W R I T E wcount is 97 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [8606704813466856656] on node [7771206659982113303]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-5], 512 bytes at position 4096
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-7 WRITE off=1536, sz=512 [^_O[?<u{_  <more data follows>]
+
+
+****   W R I T E wcount is 98 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1264301853l] from node [4232621288l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [1264301853l] on node [4232621288l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-7], 512 bytes at position 1536
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-5 WRITE off=4608, sz=512 [HV?B$UdFX] <more data follows>]
+
+
+****   W R I T E wcount is 99 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1968581840l] from node [2623683095l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [1968581840l] on node [2623683095l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-5], 512 bytes at position 4608
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-10 WRITE off=6144, sz=512 [4(Oi -1,XE <more data follows>]
+
+
+****   W R I T E wcount is 100 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [6762769219277101597] on node [8775596425547568186]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-10], 512 bytes at position 6144
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-11 WRITE off=3072, sz=512 [:aK86)jBos <more data follows>]
+
+
+****   W R I T E wcount is 101 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [8130252786849996358]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [7452866428060426991] on node [8130252786849996358]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-11], 512 bytes at position 3072
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-10 WRITE off=6656, sz=512 [oL>N;xB2#a <more data follows>]
+
+
+****   W R I T E wcount is 102 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [888478237l] from node [888362042l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [888478237l] on node [888362042l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-10], 512 bytes at position 6656
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-2 WRITE off=512, sz=512 [WUqyY$c^6_ <more data follows>]
+
+
+****   W R I T E wcount is 103 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3887950989l] from node [2413709278l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3887950989l] on node [2413709278l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-2], 512 bytes at position 512
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-8 WRITE off=2048, sz=512 [B2l:^<siEQ <more data follows>]
+
+
+****   W R I T E wcount is 104 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [18374377414211863512]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [17217600909741963787] on node [18374377414211863512]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-8], 512 bytes at position 2048
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-17 WRITE off=4096, sz=512 [6Wa1Q+zlo> <more data follows>]
+
+
+****   W R I T E wcount is 105 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [16665279525368267671]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [3158760178947937112] on node [16665279525368267671]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-17], 512 bytes at position 4096
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-18 WRITE off=4096, sz=512 [RL(;m?PcX1 <more data follows>]
+
+
+****   W R I T E wcount is 106 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [14907640765897609395] on node [4392651165145735752]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-18], 512 bytes at position 4096
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-16 WRITE off=1024, sz=512 [3VBLiU5}C_ <more data follows>]
+
+
+****   W R I T E wcount is 107 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [6223922457384715279]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [10482644715934987751] on node [6223922457384715279]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-16], 512 bytes at position 1024
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-13 WRITE off=3584, sz=512 [%,?A|{a*Mt <more data follows>]
+
+
+****   W R I T E wcount is 108 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3123473813l] from node [1918566728l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3123473813l] on node [1918566728l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-13], 512 bytes at position 3584
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-10 WRITE off=7168, sz=512 [X>>,1i]:PN <more data follows>]
+
+
+****   W R I T E wcount is 109 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [9340494702465367807]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [2044204882198984201] on node [9340494702465367807]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-10], 512 bytes at position 7168
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-7 WRITE off=2048, sz=512 [&MU7*.f5JY <more data follows>]
+
+
+****   W R I T E wcount is 110 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [2924478253459683252]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [6031156931562951355] on node [2924478253459683252]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-7], 512 bytes at position 2048
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-5 WRITE off=5120, sz=512 [piESdRQe9q <more data follows>]
+
+
+****   W R I T E wcount is 111 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [4314532233177056784] on node [9340494702465367807]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-5], 512 bytes at position 5120
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-13 WRITE off=4096, sz=512 [I[0&Hg?E+< <more data follows>]
+
+
+****   W R I T E wcount is 112 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [16184144065657444169]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [9322907560790019123] on node [16184144065657444169]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-13], 512 bytes at position 4096
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-10 WRITE off=7680, sz=512 [.|l .P^Yh; <more data follows>]
+
+
+****   W R I T E wcount is 113 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [2073490953l] from node [2665332479l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [2073490953l] on node [2665332479l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-10], 512 bytes at position 7680
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-7 WRITE off=2560, sz=512 [-m5v!DLB,= <more data follows>]
+
+
+****   W R I T E wcount is 114 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1517408955l] from node [449951668l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [1517408955l] on node [449951668l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-7], 512 bytes at position 2560
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-7 WRITE off=3072, sz=512 [.*hEQF69]0 <more data follows>]
+
+
+****   W R I T E wcount is 115 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [8359431564773435030] on node [14716330547919708630]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-7], 512 bytes at position 3072
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-3 WRITE off=2048, sz=512 [Of3Ryr~G?1 <more data follows>]
+
+
+****   W R I T E wcount is 116 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [12259293763074967057] on node [6665737122082605022]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-3], 512 bytes at position 2048
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-3 WRITE off=2560, sz=512 [3FS|u_@$%| <more data follows>]
+
+
+****   W R I T E wcount is 117 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [2571027985l] from node [2413709278l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [2571027985l] on node [2413709278l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-3], 512 bytes at position 2560
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-20 WRITE off=3584, sz=512 [#U?G]=:zu1 <more data follows>]
+
+
+****   W R I T E wcount is 118 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [419077982l] from node [3773259900l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [419077982l] on node [3773259900l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-20], 512 bytes at position 3584
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-14 WRITE off=1024, sz=512 [}sQhM>O-Oz <more data follows>]
+
+
+****   W R I T E wcount is 119 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [12029458507966270466] on node [12831473117915448691]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-14], 512 bytes at position 1024
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-5 WRITE off=5632, sz=512 [FoVu;SHLt_ <more data follows>]
+
+
+****   W R I T E wcount is 120 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3934111248l] from node [2665332479l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3934111248l] on node [2665332479l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-5], 512 bytes at position 5632
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-1 WRITE off=1536, sz=512 [csh+#Dr9B< <more data follows>]
+
+
+****   W R I T E wcount is 121 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [2558124759l] from node [2413709278l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [2558124759l] on node [2413709278l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-1], 512 bytes at position 1536
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-14 WRITE off=1536, sz=512 [Axw@B]TeE_ <more data follows>]
+
+
+****   W R I T E wcount is 122 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [933317634l] from node [307430771l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [933317634l] on node [307430771l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-14], 512 bytes at position 1536
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-5 WRITE off=6144, sz=512 [<JDJy/1<96 <more data follows>]
+
+
+****   W R I T E wcount is 123 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [9960669580169189112]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [9610693023278254669] on node [9960669580169189112]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-5], 512 bytes at position 6144
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-5 WRITE off=6656, sz=512 [9i*1Qi:~Ta <more data follows>]
+
+
+****   W R I T E wcount is 124 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [2446543437l] from node [2466649848l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [2446543437l] on node [2466649848l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-5], 512 bytes at position 6656
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-12 WRITE off=1536, sz=512 [*QN9J%4b.< <more data follows>]
+
+
+****   W R I T E wcount is 125 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [159445809l] from node [548905544l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [159445809l] on node [548905544l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-12], 512 bytes at position 1536
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-15 WRITE off=1536, sz=512 [SVQ]t+1G:. <more data follows>]
+
+
+****   W R I T E wcount is 126 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [160931808l] from node [888362042l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [160931808l] on node [888362042l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-15], 512 bytes at position 1536
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-17 WRITE off=4608, sz=512 [ 4}K.TQ[(K <more data follows>]
+
+
+****   W R I T E wcount is 127 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [2631357272l] from node [2418705303l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [2631357272l] on node [2418705303l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-17], 512 bytes at position 4608
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-13 WRITE off=4608, sz=512 [ZftA6RkL}p <more data follows>]
+
+
+****   W R I T E wcount is 128 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [447826995l] from node [3410106185l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [447826995l] on node [3410106185l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-13], 512 bytes at position 4608
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-17 WRITE off=5120, sz=512 [tdb<LpwAJP <more data follows>]
+
+
+****   W R I T E wcount is 129 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [11480589267645208256]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [8482439707708100771] on node [11480589267645208256]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-17], 512 bytes at position 5120
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-12 WRITE off=2048, sz=512 [GKH}2ONE]F <more data follows>]
+
+
+****   W R I T E wcount is 130 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [18436421401439902825] on node [7266575608827354529]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-12], 512 bytes at position 2048
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-16 WRITE off=1536, sz=512 [l&SVhF|Ju= <more data follows>]
+
+
+****   W R I T E wcount is 131 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1743664615l] from node [3455976463l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [1743664615l] on node [3455976463l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-16], 512 bytes at position 1536
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-17 WRITE off=5632, sz=512 [q+j:#0_lU] <more data follows>]
+
+
+****   W R I T E wcount is 132 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3868987555l] from node [3056047808l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3868987555l] on node [3056047808l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-17], 512 bytes at position 5632
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-16 WRITE off=2048, sz=512 [05Xge-Gd?3 <more data follows>]
+
+
+****   W R I T E wcount is 133 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [5636949241089679361]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [9929289939094785108] on node [5636949241089679361]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-16], 512 bytes at position 2048
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-14 WRITE off=2048, sz=512 [OVKOt&Mp{= <more data follows>]
+
+
+****   W R I T E wcount is 134 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [1162105571311286489]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [7526985756201281828] on node [1162105571311286489]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-14], 512 bytes at position 2048
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-18 WRITE off=4608, sz=512 [u:f}HZkn8< <more data follows>]
+
+
+****   W R I T E wcount is 135 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3799355571l] from node [548905544l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3799355571l] on node [548905544l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-18], 512 bytes at position 4608
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-1 WRITE off=2048, sz=512 [4N. +0:g|A <more data follows>]
+
+
+****   W R I T E wcount is 136 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [9331457842771060023]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [2439127863592676318] on node [9331457842771060023]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-1], 512 bytes at position 2048
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-1 WRITE off=2560, sz=512 [R=-9@&eDvk <more data follows>]
+
+
+****   W R I T E wcount is 137 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1865608158l] from node [3269911863l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [1865608158l] on node [3269911863l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-1], 512 bytes at position 2560
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-7 WRITE off=3584, sz=512 [gl>~j#G<?I <more data follows>]
+
+
+****   W R I T E wcount is 138 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3464636054l] from node [2986074582l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3464636054l] on node [2986074582l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-7], 512 bytes at position 3584
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-1 WRITE off=3072, sz=512 [P+K+/an}^@ <more data follows>]
+
+
+****   W R I T E wcount is 139 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [15726450819858237821]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [6408108314474370485] on node [15726450819858237821]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-1], 512 bytes at position 3072
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-17 WRITE off=6144, sz=512 [/~hv&?Enk# <more data follows>]
+
+
+****   W R I T E wcount is 140 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [9792437928507875913]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [15775892381677894776] on node [9792437928507875913]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-17], 512 bytes at position 6144
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-7 WRITE off=4096, sz=512 [NBd3[ -L0D <more data follows>]
+
+
+****   W R I T E wcount is 141 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [14691886491901294878] on node [13064484679985841359]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-7], 512 bytes at position 4096
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-2 WRITE off=1024, sz=512 []EOyC!fK{M <more data follows>]
+
+
+****   W R I T E wcount is 142 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [5910884254180275044] on node [6223922457384715279]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-2], 512 bytes at position 1024
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-17 WRITE off=6656, sz=512 [0Ltx8}8r:A <more data follows>]
+
+
+****   W R I T E wcount is 143 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1890827384l] from node [3586531913l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [1890827384l] on node [3586531913l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-17], 512 bytes at position 6656
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-3 WRITE off=3072, sz=512 [QD*~},au.7 <more data follows>]
+
+
+****   W R I T E wcount is 144 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [16748433579108952544] on node [18312071571214459512]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-3], 512 bytes at position 3072
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-2 WRITE off=1536, sz=512 [=Am(n[R #- <more data follows>]
+
+
+****   W R I T E wcount is 145 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1994224484l] from node [3455976463l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [1994224484l] on node [3455976463l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-2], 512 bytes at position 1536
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-5 WRITE off=7168, sz=512 [2/E2Rl;[s8 <more data follows>]
+
+
+****   W R I T E wcount is 146 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [4466632664015264076]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [3165652066463816052] on node [4466632664015264076]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-5], 512 bytes at position 7168
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-2 WRITE off=2048, sz=512 [=3y1Fx4v,b <more data follows>]
+
+
+****   W R I T E wcount is 147 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [9208168401266416413] on node [15726450819858237821]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-2], 512 bytes at position 2048
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-17 WRITE off=7168, sz=512 [sEkvbGA^Fe <more data follows>]
+
+
+****   W R I T E wcount is 148 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [6791045701383375280] on node [9810144250009766028]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-17], 512 bytes at position 7168
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-2 WRITE off=2560, sz=512 [)lO;b:oG%N <more data follows>]
+
+
+****   W R I T E wcount is 149 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3178634013l] from node [3343714685l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3178634013l] on node [3343714685l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-2], 512 bytes at position 2560
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-19 WRITE off=2560, sz=512 [R<k#0;U8?g <more data follows>]
+
+
+****   W R I T E wcount is 150 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1810149688l] from node [288114828l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [1810149688l] on node [288114828l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-19], 512 bytes at position 2560
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-7 WRITE off=4608, sz=512 [691Qs6H,~9 <more data follows>]
+
+
+****   W R I T E wcount is 151 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1713568030l] from node [202818767l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [1713568030l] on node [202818767l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-7], 512 bytes at position 4608
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-14 WRITE off=2560, sz=512 [>1np9Q]Cx% <more data follows>]
+
+
+****   W R I T E wcount is 152 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1674406180l] from node [696449241l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [1674406180l] on node [696449241l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-14], 512 bytes at position 2560
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-8 WRITE off=2560, sz=512 [JTZgb=g4r~ <more data follows>]
+
+
+****   W R I T E wcount is 153 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [4254906891l] from node [386859992l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [4254906891l] on node [386859992l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-8], 512 bytes at position 2560
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-12 WRITE off=2560, sz=512 [Oee5!#hduE <more data follows>]
+
+
+****   W R I T E wcount is 154 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [2453412969l] from node [699145633l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [2453412969l] on node [699145633l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-12], 512 bytes at position 2560
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-15 WRITE off=2048, sz=512 [6j$/j8r=!  <more data follows>]
+
+
+****   W R I T E wcount is 155 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [11704180611492754112]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [4964690280223600304] on node [11704180611492754112]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-15], 512 bytes at position 2048
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-8 WRITE off=3072, sz=512 [)p~ux8g5>_ <more data follows>]
+
+
+****   W R I T E wcount is 156 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [12514449207523225632]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [16226713755693649632] on node [12514449207523225632]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-8], 512 bytes at position 3072
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-8 WRITE off=3584, sz=512 [a$ybhj;5LT <more data follows>]
+
+
+****   W R I T E wcount is 157 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [537956064l] from node [4128714784l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [537956064l] on node [4128714784l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-8], 512 bytes at position 3584
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-14 WRITE off=3072, sz=512 [Y~qJ)7(hk# <more data follows>]
+
+
+****   W R I T E wcount is 158 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [349065358727712963]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [10369404341462888589] on node [349065358727712963]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-14], 512 bytes at position 3072
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-17 WRITE off=7680, sz=512 [JZ H+4YWxd <more data follows>]
+
+
+****   W R I T E wcount is 159 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3160820144l] from node [288114828l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3160820144l] on node [288114828l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-17], 512 bytes at position 7680
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-10 WRITE off=8192, sz=512 [BB2+g,p5ds <more data follows>]
+
+
+****   W R I T E wcount is 160 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [3411073123383181068]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [12534464426272840154] on node [3411073123383181068]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-10], 512 bytes at position 8192
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-6 WRITE off=2048, sz=512 [4^5LhZq]A: <more data follows>]
+
+
+****   W R I T E wcount is 161 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [4286446673397896961]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [2324908695239620970] on node [4286446673397896961]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-6], 512 bytes at position 2048
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-2 WRITE off=3072, sz=512 [>pr%@]4S%. <more data follows>]
+
+
+****   W R I T E wcount is 162 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [4883477934926422213]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [5860819414549226863] on node [4883477934926422213]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-2], 512 bytes at position 3072
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-12 WRITE off=3072, sz=512 [j(Q<@+@bh$ <more data follows>]
+
+
+****   W R I T E wcount is 163 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [3326022028819520929]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [18289253858523645018] on node [3326022028819520929]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-12], 512 bytes at position 3072
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-5 WRITE off=7680, sz=512 [@xb190s~xf <more data follows>]
+
+
+****   W R I T E wcount is 164 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [940480884l] from node [550066508l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [940480884l] on node [550066508l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-5], 512 bytes at position 7680
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-3 WRITE off=3584, sz=512 [p(ja:.[Q9k <more data follows>]
+
+
+****   W R I T E wcount is 165 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1795385824l] from node [2412012152l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [1795385824l] on node [2412012152l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-3], 512 bytes at position 3584
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-10 WRITE off=8704, sz=512 [}[hShy~CVY <more data follows>]
+
+
+****   W R I T E wcount is 166 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [969103834l] from node [3726835468l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [969103834l] on node [3726835468l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-10], 512 bytes at position 8704
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-10 WRITE off=9216, sz=512 [;/ ~r>x(aE <more data follows>]
+
+
+****   W R I T E wcount is 167 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [1824684707507004906]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [9899816545090420200] on node [1824684707507004906]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-10], 512 bytes at position 9216
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-19 WRITE off=3072, sz=512 [K#2x!Gt_Zn <more data follows>]
+
+
+****   W R I T E wcount is 168 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [8677004494015714068]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [1203583464674311202] on node [8677004494015714068]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-19], 512 bytes at position 3072
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-13 WRITE off=5120, sz=512 [$#({!$PDc> <more data follows>]
+
+
+****   W R I T E wcount is 169 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [7439097341277799979] on node [4286446673397896961]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-13], 512 bytes at position 5120
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-15 WRITE off=2560, sz=512 [ylZi%F{P.L <more data follows>]
+
+
+****   W R I T E wcount is 170 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [2089807536l] from node [923415232l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [2089807536l] on node [923415232l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-15], 512 bytes at position 2560
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-2 WRITE off=3584, sz=512 [3 1H8O{^I8 <more data follows>]
+
+
+****   W R I T E wcount is 171 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [2699781487l] from node [3686752453l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [2699781487l] on node [3686752453l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-2], 512 bytes at position 3584
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-14 WRITE off=3584, sz=512 [x9IU]ae#TG <more data follows>]
+
+
+****   W R I T E wcount is 172 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [558493837l] from node [643567811l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [558493837l] on node [643567811l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-14], 512 bytes at position 3584
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-11 WRITE off=3584, sz=512 [q.9#w(Lr_d <more data follows>]
+
+
+****   W R I T E wcount is 173 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [2197414639l] from node [1850924614l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [2197414639l] on node [1850924614l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-11], 512 bytes at position 3584
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-11 WRITE off=4096, sz=512 [CZ*~80-2R2 <more data follows>]
+
+
+****   W R I T E wcount is 174 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [4899419037629196941]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [15880849730761633453] on node [4899419037629196941]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-11], 512 bytes at position 4096
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-14 WRITE off=4096, sz=512 [V)5(,!.sJ? <more data follows>]
+
+
+****   W R I T E wcount is 175 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [556737375314485435]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [9657156412044174540] on node [556737375314485435]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-14], 512 bytes at position 4096
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-3 WRITE off=4096, sz=512 [Oa/;r|oVs^ <more data follows>]
+
+
+****   W R I T E wcount is 176 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [6964795370171651562]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [8883284684426601978] on node [6964795370171651562]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-3], 512 bytes at position 4096
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-18 WRITE off=5120, sz=512 [(H9e,BsHGY <more data follows>]
+
+
+****   W R I T E wcount is 177 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [3588097093467279541] on node [18277885356592481151]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-18], 512 bytes at position 5120
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-19 WRITE off=3584, sz=512 [x*P2h_~X]< <more data follows>]
+
+
+****   W R I T E wcount is 178 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3312598050l] from node [1413894932l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3312598050l] on node [1413894932l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-19], 512 bytes at position 3584
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-18 WRITE off=5632, sz=512 [Cn6zc_+LoU <more data follows>]
+
+
+****   W R I T E wcount is 179 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3283783861l] from node [889340799l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3283783861l] on node [889340799l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-18], 512 bytes at position 5632
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-2 WRITE off=4096, sz=512 [C99>Y=cscI <more data follows>]
+
+
+****   W R I T E wcount is 180 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [5094257917875172237]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [9784796993591604928] on node [5094257917875172237]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-2], 512 bytes at position 4096
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-12 WRITE off=3584, sz=512 [wEv6m-8=Xu <more data follows>]
+
+
+****   W R I T E wcount is 181 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3560866906l] from node [3337182625l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3560866906l] on node [3337182625l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-12], 512 bytes at position 3584
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-6 WRITE off=2560, sz=512 [/SX]fau[[] <more data follows>]
+
+
+****   W R I T E wcount is 182 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [4076435818l] from node [4102641409l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [4076435818l] on node [4102641409l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-6], 512 bytes at position 2560
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-7 WRITE off=5120, sz=512 []e}bss@S{; <more data follows>]
+
+
+****   W R I T E wcount is 183 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [5330006906025956288] on node [6351061174980068805]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-7], 512 bytes at position 5120
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-18 WRITE off=6144, sz=512 [IsLr0{_8/O <more data follows>]
+
+
+****   W R I T E wcount is 184 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [12605558062509981370]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [13604697721573205777] on node [12605558062509981370]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-18], 512 bytes at position 6144
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-12 WRITE off=4096, sz=512 [m>k/)E?JQ| <more data follows>]
+
+
+****   W R I T E wcount is 185 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [2707269839752454188] on node [13064484679985841359]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-12], 512 bytes at position 4096
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-15 WRITE off=3072, sz=512 [M;P]#K;fW? <more data follows>]
+
+
+****   W R I T E wcount is 186 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [10578048270241661740] on node [5094257917875172237]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-15], 512 bytes at position 3072
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-2 WRITE off=4608, sz=512 [I~oLX@52S2 <more data follows>]
+
+
+****   W R I T E wcount is 187 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [173438656l] from node [4113281933l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [173438656l] on node [4113281933l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-2], 512 bytes at position 4608
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-6 WRITE off=3072, sz=512 [x699F/XXt_ <more data follows>]
+
+
+****   W R I T E wcount is 188 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [11999756731447399675] on node [1824684707507004906]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-6], 512 bytes at position 3072
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-19 WRITE off=4096, sz=512 [-[uJ~.[=zH <more data follows>]
+
+
+****   W R I T E wcount is 189 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [4265136461225592600] on node [13064484679985841359]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-19], 512 bytes at position 4096
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-6 WRITE off=3584, sz=512 [G$ojLfaGyi <more data follows>]
+
+
+****   W R I T E wcount is 190 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [2030458107l] from node [3926582762l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [2030458107l] on node [3926582762l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-6], 512 bytes at position 3584
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-17 WRITE off=8192, sz=512 [,aB::,n0i- <more data follows>]
+
+
+****   W R I T E wcount is 191 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [12430193425187421469]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [8504277254066522627] on node [12430193425187421469]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-17], 512 bytes at position 8192
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-6 WRITE off=4096, sz=512 [Ao+UNPfNn} <more data follows>]
+
+
+****   W R I T E wcount is 192 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [8094140918089153769]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [9346826994775003066] on node [8094140918089153769]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-6], 512 bytes at position 4096
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-3 WRITE off=4608, sz=512 [7rPs]sO0@( <more data follows>]
+
+
+****   W R I T E wcount is 193 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3588908538l] from node [4099790314l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3588908538l] on node [4099790314l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-3], 512 bytes at position 4608
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-6 WRITE off=4608, sz=512 [2CL|Eo$hV; <more data follows>]
+
+
+****   W R I T E wcount is 194 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1352175546l] from node [3366485225l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [1352175546l] on node [3366485225l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-6], 512 bytes at position 4608
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-7 WRITE off=5632, sz=512 [>fTUz!}.st <more data follows>]
+
+
+****   W R I T E wcount is 195 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [2618184640l] from node [1098270149l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [2618184640l] on node [1098270149l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-7], 512 bytes at position 5632
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-12 WRITE off=4608, sz=512 [s~SqnZ|Z(~ <more data follows>]
+
+
+****   W R I T E wcount is 196 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1435689004l] from node [202818767l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [1435689004l] on node [202818767l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-12], 512 bytes at position 4608
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-12 WRITE off=5120, sz=512 [-#<qHx_HTa <more data follows>]
+
+
+****   W R I T E wcount is 197 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [4006068442699540674] on node [12605558062509981370]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-12], 512 bytes at position 5120
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-6 WRITE off=5120, sz=512 [ztd;rS+%@e <more data follows>]
+
+
+****   W R I T E wcount is 198 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [4602088386009875987] on node [7266575608827354529]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-6], 512 bytes at position 5120
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-14 WRITE off=4608, sz=512 [nG,<Nwv_^  <more data follows>]
+
+
+****   W R I T E wcount is 199 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1212638412l] from node [1892524219l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [1212638412l] on node [1892524219l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-14], 512 bytes at position 4608
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-6 WRITE off=5632, sz=512 [?hILyxx+5c <more data follows>]
+
+
+****   W R I T E wcount is 200 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [286377491l] from node [699145633l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [286377491l] on node [699145633l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-6], 512 bytes at position 5632
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-13 WRITE off=5632, sz=512 [D^CK:JP|yD <more data follows>]
+
+
+****   W R I T E wcount is 201 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [745178667l] from node [4102641409l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [745178667l] on node [4102641409l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-13], 512 bytes at position 5632
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-17 WRITE off=8704, sz=512 [C/ts)+utau <more data follows>]
+
+
+****   W R I T E wcount is 202 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3759262211l] from node [3987815709l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3759262211l] on node [3987815709l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-17], 512 bytes at position 8704
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-12 WRITE off=5632, sz=512 [U@,=qV,|TC <more data follows>]
+
+
+****   W R I T E wcount is 203 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [151136450l] from node [1333264058l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [151136450l] on node [1333264058l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-12], 512 bytes at position 5632
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-8 WRITE off=4096, sz=512 [N&Q3~kgB_D <more data follows>]
+
+
+****   W R I T E wcount is 204 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [7006606801839876904] on node [4883477934926422213]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-8], 512 bytes at position 4096
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-3 WRITE off=5120, sz=512 [CGKNP?SUue <more data follows>]
+
+
+****   W R I T E wcount is 205 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [15951815658638748814]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [4788263679151205137] on node [15951815658638748814]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-3], 512 bytes at position 5120
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-8 WRITE off=4608, sz=512 [MK;6f<L((j <more data follows>]
+
+
+****   W R I T E wcount is 206 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [2155899688l] from node [3686752453l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [2155899688l] on node [3686752453l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-8], 512 bytes at position 4608
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-3 WRITE off=5632, sz=512 [,{^hKn*Ge2 <more data follows>]
+
+
+****   W R I T E wcount is 207 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1723230993l] from node [1068313742l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [1723230993l] on node [1068313742l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-3], 512 bytes at position 5632
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-6 WRITE off=6144, sz=512 [QT~fWBifNX <more data follows>]
+
+
+****   W R I T E wcount is 208 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [4806595851334430353] on node [349065358727712963]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-6], 512 bytes at position 6144
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-12 WRITE off=6144, sz=512 [<UK~)L^%OG <more data follows>]
+
+
+****   W R I T E wcount is 209 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [9309293935263188697] on node [15951815658638748814]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-12], 512 bytes at position 6144
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-12 WRITE off=6656, sz=512 [i4VxFiD|n% <more data follows>]
+
+
+****   W R I T E wcount is 210 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3910108889l] from node [1068313742l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3910108889l] on node [1068313742l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-12], 512 bytes at position 6656
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-3 WRITE off=6144, sz=512 [L1|.;}~{wt <more data follows>]
+
+
+****   W R I T E wcount is 211 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [4073335431700618613]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [17206012018461582158] on node [4073335431700618613]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-3], 512 bytes at position 6144
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-6 WRITE off=6656, sz=512 [;P{$}3&EXs <more data follows>]
+
+
+****   W R I T E wcount is 212 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3651645073l] from node [643567811l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3651645073l] on node [643567811l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-6], 512 bytes at position 6656
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-12 WRITE off=7168, sz=512 [Q>Z~<4wXUu <more data follows>]
+
+
+****   W R I T E wcount is 213 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [11132909626739959274] on node [12831473117915448691]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-12], 512 bytes at position 7168
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-15 WRITE off=3584, sz=512 [woIaxIp[Zj <more data follows>]
+
+
+****   W R I T E wcount is 214 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1555071788l] from node [4113281933l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [1555071788l] on node [4113281933l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-15], 512 bytes at position 3584
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-3 WRITE off=6656, sz=512 [hyXXI^-h*: <more data follows>]
+
+
+****   W R I T E wcount is 215 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [4185989966l] from node [1636244853l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [4185989966l] on node [1636244853l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-3], 512 bytes at position 6656
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-14 WRITE off=5120, sz=512 [9&@I#0A6wk <more data follows>]
+
+
+****   W R I T E wcount is 216 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [2080777200955102084] on node [15951815658638748814]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-14], 512 bytes at position 5120
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-6 WRITE off=7168, sz=512 [E^D)CP?ZG. <more data follows>]
+
+
+****   W R I T E wcount is 217 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [7904626367353184496] on node [4883477934926422213]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-6], 512 bytes at position 7168
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-6 WRITE off=7680, sz=512 [](PSLz_Xa= <more data follows>]
+
+
+****   W R I T E wcount is 218 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [4098220272l] from node [3686752453l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [4098220272l] on node [3686752453l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-6], 512 bytes at position 7680
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-12 WRITE off=7680, sz=512 [L;@$=4#peM <more data follows>]
+
+
+****   W R I T E wcount is 219 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [576497130l] from node [307430771l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [576497130l] on node [307430771l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-12], 512 bytes at position 7680
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-12 WRITE off=8192, sz=512 [ZE,$9V rZ5 <more data follows>]
+
+
+****   W R I T E wcount is 220 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [16113022398816209418]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [7986240630352865431] on node [16113022398816209418]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-12], 512 bytes at position 8192
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-12 WRITE off=8704, sz=512 [YdwutdjClA <more data follows>]
+
+
+****   W R I T E wcount is 221 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1459185815l] from node [1398426122l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [1459185815l] on node [1398426122l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-12], 512 bytes at position 8704
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-7 WRITE off=6144, sz=512 [QpW{=i3 sD <more data follows>]
+
+
+****   W R I T E wcount is 222 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [16701351585288752988] on node [15856570470997662776]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-7], 512 bytes at position 6144
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-13 WRITE off=6144, sz=512 [Mm^+D$LS+- <more data follows>]
+
+
+****   W R I T E wcount is 223 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [14233055320670169763]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [1544922585779539241] on node [14233055320670169763]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-13], 512 bytes at position 6144
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-14 WRITE off=5632, sz=512 [$KV(q#!E5& <more data follows>]
+
+
+****   W R I T E wcount is 224 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [4289270660l] from node [1068313742l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [4289270660l] on node [1068313742l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-14], 512 bytes at position 5632
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-18 WRITE off=6656, sz=512 [DhC6Eo )#t <more data follows>]
+
+
+****   W R I T E wcount is 225 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [988800785l] from node [1333264058l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [988800785l] on node [1333264058l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-18], 512 bytes at position 6656
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-7 WRITE off=6656, sz=512 [b9bc_OM4pl <more data follows>]
+
+
+****   W R I T E wcount is 226 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [2114654044l] from node [3888356408l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [2114654044l] on node [3888356408l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-7], 512 bytes at position 6656
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-12 WRITE off=9216, sz=512 [oG!&oqGD^2 <more data follows>]
+
+
+****   W R I T E wcount is 227 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [16158989547487841591]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [15983712631381359968] on node [16158989547487841591]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-12], 512 bytes at position 9216
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-13 WRITE off=6656, sz=512 [h$sg HMF&, <more data follows>]
+
+
+****   W R I T E wcount is 228 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [182324521l] from node [2030529187l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [182324521l] on node [2030529187l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-13], 512 bytes at position 6656
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-14 WRITE off=6144, sz=512 [Zwa20:@}]2 <more data follows>]
+
+
+****   W R I T E wcount is 229 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [18290729920993593148] on node [6386700381844586188]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-14], 512 bytes at position 6144
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-14 WRITE off=6656, sz=512 [f:IvuhFV_k <more data follows>]
+
+
+****   W R I T E wcount is 230 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1735296828l] from node [3132276428l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [1735296828l] on node [3132276428l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-14], 512 bytes at position 6656
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-14 WRITE off=7168, sz=512 [$@QSC0Dn,m <more data follows>]
+
+
+****   W R I T E wcount is 231 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [15144412381401552091] on node [1824684707507004906]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-14], 512 bytes at position 7168
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-14 WRITE off=7680, sz=512 [Djj 6(:PYp <more data follows>]
+
+
+****   W R I T E wcount is 232 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [2239206619l] from node [3926582762l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [2239206619l] on node [3926582762l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-14], 512 bytes at position 7680
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-14 WRITE off=8192, sz=512 [sH$!{:ig2E <more data follows>]
+
+
+****   W R I T E wcount is 233 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [9178486456044086412] on node [14716330547919708630]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-14], 512 bytes at position 8192
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-15 WRITE off=4096, sz=512 [a8ruY^D[!E <more data follows>]
+
+
+****   W R I T E wcount is 234 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [17458639069134365109]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [11529925101545299961] on node [17458639069134365109]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-15], 512 bytes at position 4096
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-15 WRITE off=4608, sz=512 [y$j<|Zpz2! <more data follows>]
+
+
+****   W R I T E wcount is 235 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [2893520889l] from node [3380781493l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [2893520889l] on node [3380781493l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-15], 512 bytes at position 4608
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-17 WRITE off=9216, sz=512 [Yv6FP,ET&x <more data follows>]
+
+
+****   W R I T E wcount is 236 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [14764891884030871722] on node [16665279525368267671]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-17], 512 bytes at position 9216
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-15 WRITE off=5120, sz=512 [$1dK~YYAIf <more data follows>]
+
+
+****   W R I T E wcount is 237 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [9335468217220535222]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [4052133149173125899] on node [9335468217220535222]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-15], 512 bytes at position 5120
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-18 WRITE off=7168, sz=512 [A;zov..B_D <more data follows>]
+
+
+****   W R I T E wcount is 238 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [2432433359357637304] on node [12514449207523225632]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-18], 512 bytes at position 7168
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-18 WRITE off=7680, sz=512 [6mT|U61*qs <more data follows>]
+
+
+****   W R I T E wcount is 239 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3025302200l] from node [4128714784l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3025302200l] on node [4128714784l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-18], 512 bytes at position 7680
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-18 WRITE off=8192, sz=512 [T^z,l9{x0Y <more data follows>]
+
+
+****   W R I T E wcount is 240 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [2622025810109109654] on node [18277885356592481151]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-18], 512 bytes at position 8192
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-18 WRITE off=8704, sz=512 [iSSr8-[>%i <more data follows>]
+
+
+****   W R I T E wcount is 241 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [192255382l] from node [889340799l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [192255382l] on node [889340799l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-18], 512 bytes at position 8704
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-18 WRITE off=9216, sz=512 [mG(i-PfQ&i <more data follows>]
+
+
+****   W R I T E wcount is 242 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [5232404036783932565]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [4369125936173210941] on node [5232404036783932565]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-18], 512 bytes at position 9216
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-18 WRITE off=9728, sz=512 [)qc6ClC>+> <more data follows>]
+
+
+****   W R I T E wcount is 243 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3968654653l] from node [3184755861l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3968654653l] on node [3184755861l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-18], 512 bytes at position 9728
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-19 WRITE off=4608, sz=512 [W)qMN9lzE, <more data follows>]
+
+
+****   W R I T E wcount is 244 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [2313881368l] from node [202818767l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [2313881368l] on node [202818767l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-19], 512 bytes at position 4608
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-19 WRITE off=5120, sz=512 [i^^2L)w5e  <more data follows>]
+
+
+****   W R I T E wcount is 245 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [3012343752421316620] on node [12430193425187421469]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-19], 512 bytes at position 5120
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-19 WRITE off=5632, sz=512 [eAvwDcIiu/ <more data follows>]
+
+
+****   W R I T E wcount is 246 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3362822156l] from node [3987815709l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3362822156l] on node [3987815709l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-19], 512 bytes at position 5632
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-19 WRITE off=6144, sz=512 [n~<,iY5WUS <more data follows>]
+
+
+****   W R I T E wcount is 247 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [6325227478697470901] on node [12831473117915448691]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-19], 512 bytes at position 6144
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-19 WRITE off=6656, sz=512 [-G05zi1[*D <more data follows>]
+
+
+****   W R I T E wcount is 248 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [525167541l] from node [307430771l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [525167541l] on node [307430771l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-19], 512 bytes at position 6656
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-19 READ off=1536, sz=512 [/yXF+0Ay&@ <more data follows>]
+
+
+****   R E A D rcount is 1 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3497829191l] from node [2822194907l]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Correctly read from [cmpsc311-f20-sample-19], 512 bytes at position 1536
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-4 READ off=0, sz=512 [4ohizB}/ 6 <more data follows>]
+
+
+****   R E A D rcount is 2 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1844324056l] from node [2412012152l]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Correctly read from [cmpsc311-f20-sample-4], 512 bytes at position 0
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-17 WRITE off=8192, sz=512 [,aB::,n0i- <more data follows>]
+
+
+****   W R I T E wcount is 249 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3602204842l] from node [2418705303l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3602204842l] on node [2418705303l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-17], 512 bytes at position 8192
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-14 READ off=1536, sz=512 [Axw@B]TeE_ <more data follows>]
+
+
+****   R E A D rcount is 3 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [933317634l] from node [307430771l]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Correctly read from [cmpsc311-f20-sample-14], 512 bytes at position 1536
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-16 WRITE off=0, sz=512 [P[7z+^~&,e <more data follows>]
+
+
+****   W R I T E wcount is 250 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [2342177876l] from node [202301441l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [2342177876l] on node [202301441l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-16], 512 bytes at position 0
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-6 READ off=4608, sz=512 [2CL|Eo$hV; <more data follows>]
+
+
+****   R E A D rcount is 4 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1352175546l] from node [3366485225l]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Correctly read from [cmpsc311-f20-sample-6], 512 bytes at position 4608
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-3 WRITE off=5632, sz=512 [,{^hKn*Ge2 <more data follows>]
+
+
+****   W R I T E wcount is 251 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [13238285530801563338]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [13733580691417724947] on node [13238285530801563338]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-3], 512 bytes at position 5632
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-9 READ off=512, sz=512 [&#6APis9aP <more data follows>]
+
+
+****   R E A D rcount is 5 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3881174257l] from node [3888356408l]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Correctly read from [cmpsc311-f20-sample-9], 512 bytes at position 512
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-14 WRITE off=5632, sz=512 [$KV(q#!E5& <more data follows>]
+
+
+****   W R I T E wcount is 252 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1413342348l] from node [2986074582l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [1413342348l] on node [2986074582l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-14], 512 bytes at position 5632
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-16 READ off=1536, sz=512 [l&SVhF|Ju= <more data follows>]
+
+
+****   R E A D rcount is 6 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1743664615l] from node [3455976463l]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Correctly read from [cmpsc311-f20-sample-16], 512 bytes at position 1536
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-9 READ off=512, sz=512 [&#6APis9aP <more data follows>]
+
+
+****   R E A D rcount is 7 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3881174257l] from node [3888356408l]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Correctly read from [cmpsc311-f20-sample-9], 512 bytes at position 512
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-18 WRITE off=1024, sz=512 [m&+XTW/dw+ <more data follows>]
+
+
+****   W R I T E wcount is 253 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [5588140029195078944]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [6476617082713756390] on node [5588140029195078944]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-18], 512 bytes at position 1024
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-8 READ off=2048, sz=512 [B2l:^<siEQ <more data follows>]
+
+
+****   R E A D rcount is 8 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [4254906891l] from node [386859992l]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Correctly read from [cmpsc311-f20-sample-8], 512 bytes at position 2048
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-1 READ off=1536, sz=512 [csh+#Dr9B< <more data follows>]
+
+
+****   R E A D rcount is 9 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [2558124759l] from node [2413709278l]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Correctly read from [cmpsc311-f20-sample-1], 512 bytes at position 1536
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-13 READ off=3072, sz=512 [*<JxLQnu2G <more data follows>]
+
+
+****   R E A D rcount is 10 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3123473813l] from node [1918566728l]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Correctly read from [cmpsc311-f20-sample-13], 512 bytes at position 3072
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-13 WRITE off=3584, sz=512 [%,?A|{a*Mt <more data follows>]
+
+
+****   W R I T E wcount is 254 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [6127832511458452120] on node [556737375314485435]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-13], 512 bytes at position 3584
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-11 READ off=2048, sz=512 [+_4Le=S#je <more data follows>]
+
+
+****   R E A D rcount is 11 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3831788212l] from node [2822194907l]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Correctly read from [cmpsc311-f20-sample-11], 512 bytes at position 2048
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-14 WRITE off=2560, sz=512 [>1np9Q]Cx% <more data follows>]
+
+
+****   W R I T E wcount is 255 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [17227256242470830960] on node [1824684707507004906]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-14], 512 bytes at position 2560
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-9 READ off=512, sz=512 [&#6APis9aP <more data follows>]
+
+
+****   R E A D rcount is 12 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3881174257l] from node [3888356408l]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Correctly read from [cmpsc311-f20-sample-9], 512 bytes at position 512
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-11 WRITE off=4096, sz=512 [CZ*~80-2R2 <more data follows>]
+
+
+****   W R I T E wcount is 256 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [2506600109l] from node [262974093l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [2506600109l] on node [262974093l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-11], 512 bytes at position 4096
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-3 WRITE off=5120, sz=512 [CGKNP?SUue <more data follows>]
+
+
+****   W R I T E wcount is 257 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [236845075l] from node [43968202l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [236845075l] on node [43968202l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-3], 512 bytes at position 5120
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-7 READ off=3072, sz=512 [.*hEQF69]0 <more data follows>]
+
+
+****   R E A D rcount is 13 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3464636054l] from node [2986074582l]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Correctly read from [cmpsc311-f20-sample-7], 512 bytes at position 3072
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-17 READ off=4096, sz=512 [6Wa1Q+zlo> <more data follows>]
+
+
+****   R E A D rcount is 14 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [2631357272l] from node [2418705303l]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Correctly read from [cmpsc311-f20-sample-17], 512 bytes at position 4096
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-19 READ off=3584, sz=512 [x*P2h_~X]< <more data follows>]
+
+
+****   R E A D rcount is 15 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3312598050l] from node [1413894932l]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Correctly read from [cmpsc311-f20-sample-19], 512 bytes at position 3584
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-9 READ off=512, sz=512 [&#6APis9aP <more data follows>]
+
+
+****   R E A D rcount is 16 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3881174257l] from node [3888356408l]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Correctly read from [cmpsc311-f20-sample-9], 512 bytes at position 512
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-17 READ off=4608, sz=512 [ 4}K.TQ[(K <more data follows>]
+
+
+****   R E A D rcount is 17 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [2631357272l] from node [2418705303l]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Correctly read from [cmpsc311-f20-sample-17], 512 bytes at position 4608
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-5 WRITE off=5120, sz=512 [piESdRQe9q <more data follows>]
+
+
+****   W R I T E wcount is 258 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [9431389337430428814] on node [15856570470997662776]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-5], 512 bytes at position 5120
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-6 WRITE off=7168, sz=512 [E^D)CP?ZG. <more data follows>]
+
+
+****   W R I T E wcount is 259 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [16726376038410528181] on node [16184144065657444169]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-6], 512 bytes at position 7168
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-13 WRITE off=3072, sz=512 [*<JxLQnu2G <more data follows>]
+
+
+****   W R I T E wcount is 260 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3633455768l] from node [1892524219l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3633455768l] on node [1892524219l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-13], 512 bytes at position 3072
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-14 READ off=4608, sz=512 [nG,<Nwv_^  <more data follows>]
+
+
+****   R E A D rcount is 18 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1212638412l] from node [1892524219l]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Correctly read from [cmpsc311-f20-sample-14], 512 bytes at position 4608
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-13 READ off=5632, sz=512 [D^CK:JP|yD <more data follows>]
+
+
+****   R E A D rcount is 19 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [745178667l] from node [4102641409l]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Correctly read from [cmpsc311-f20-sample-13], 512 bytes at position 5632
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-6 READ off=0, sz=512 [I#/.]Cm_rO <more data follows>]
+
+
+****   R E A D rcount is 20 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [2162002638l] from node [27016615l]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Correctly read from [cmpsc311-f20-sample-6], 512 bytes at position 0
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-8 WRITE off=1536, sz=512 [kP}}ts/h.Y <more data follows>]
+
+
+****   W R I T E wcount is 261 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [8178432430841744991]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [11042860696052645569] on node [8178432430841744991]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-8], 512 bytes at position 1536
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-8 WRITE off=2560, sz=512 [JTZgb=g4r~ <more data follows>]
+
+
+****   W R I T E wcount is 262 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [2757181121l] from node [4091235935l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [2757181121l] on node [4091235935l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-8], 512 bytes at position 2560
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-15 WRITE off=1536, sz=512 [SVQ]t+1G:. <more data follows>]
+
+
+****   W R I T E wcount is 263 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1259115275l] from node [3546354614l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [1259115275l] on node [3546354614l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-15], 512 bytes at position 1536
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-10 WRITE off=5120, sz=512 [CDo}{|xr;_ <more data follows>]
+
+
+****   W R I T E wcount is 264 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1067859432l] from node [3926582762l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [1067859432l] on node [3926582762l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-10], 512 bytes at position 5120
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-20 READ off=1536, sz=512 [$r57FRZysT <more data follows>]
+
+
+****   R E A D rcount is 21 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1714235348l] from node [202818767l]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Correctly read from [cmpsc311-f20-sample-20], 512 bytes at position 1536
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-13 READ off=4096, sz=512 [I[0&Hg?E+< <more data follows>]
+
+
+****   R E A D rcount is 22 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [447826995l] from node [3410106185l]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Correctly read from [cmpsc311-f20-sample-13], 512 bytes at position 4096
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-3 READ off=3072, sz=512 [QD*~},au.7 <more data follows>]
+
+
+****   R E A D rcount is 23 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1795385824l] from node [2412012152l]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Correctly read from [cmpsc311-f20-sample-3], 512 bytes at position 3072
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-18 READ off=9728, sz=512 [)qc6ClC>+> <more data follows>]
+
+
+****   R E A D rcount is 24 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3968654653l] from node [3184755861l]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Correctly read from [cmpsc311-f20-sample-18], 512 bytes at position 9728
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-3 READ off=1024, sz=512 [e~u{I%g%(, <more data follows>]
+
+
+****   R E A D rcount is 25 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1372713044l] from node [2756205894l]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Correctly read from [cmpsc311-f20-sample-3], 512 bytes at position 1024
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-17 WRITE off=6144, sz=512 [/~hv&?Enk# <more data follows>]
+
+
+****   W R I T E wcount is 265 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [17185093162241942489]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [17712372860233064795] on node [17185093162241942489]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-17], 512 bytes at position 6144
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-5 WRITE off=5632, sz=512 [FoVu;SHLt_ <more data follows>]
+
+
+****   W R I T E wcount is 266 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [4226976910l] from node [3888356408l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [4226976910l] on node [3888356408l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-5], 512 bytes at position 5632
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-9 READ off=0, sz=512 [IC:ILuuYu8 <more data follows>]
+
+
+****   R E A D rcount is 26 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3881174257l] from node [3888356408l]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Correctly read from [cmpsc311-f20-sample-9], 512 bytes at position 0
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-16 READ off=1536, sz=512 [l&SVhF|Ju= <more data follows>]
+
+
+****   R E A D rcount is 27 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1743664615l] from node [3455976463l]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Correctly read from [cmpsc311-f20-sample-16], 512 bytes at position 1536
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-1 WRITE off=3072, sz=512 [P+K+/an}^@ <more data follows>]
+
+
+****   W R I T E wcount is 267 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1987630517l] from node [3343714685l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [1987630517l] on node [3343714685l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-1], 512 bytes at position 3072
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-4 WRITE off=0, sz=512 [4ohizB}/ 6 <more data follows>]
+
+
+****   W R I T E wcount is 268 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [2627102326909570482] on node [11977712345623523978]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-4], 512 bytes at position 0
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-16 READ off=2048, sz=512 [05Xge-Gd?3 <more data follows>]
+
+
+****   R E A D rcount is 28 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [2342177876l] from node [202301441l]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Correctly read from [cmpsc311-f20-sample-16], 512 bytes at position 2048
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-4 WRITE off=0, sz=512 [4ohizB}/ 6 <more data follows>]
+
+
+****   W R I T E wcount is 269 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3087797682l] from node [4004737674l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [3087797682l] on node [4004737674l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-4], 512 bytes at position 0
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-3 READ off=5120, sz=512 [CGKNP?SUue <more data follows>]
+
+
+****   R E A D rcount is 29 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1723230993l] from node [1068313742l]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Correctly read from [cmpsc311-f20-sample-3], 512 bytes at position 5120
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-18 READ off=0, sz=512 [8ZPqg1V6jq <more data follows>]
+
+
+****   R E A D rcount is 30 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3732893114l] from node [2412012152l]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Correctly read from [cmpsc311-f20-sample-18], 512 bytes at position 0
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-19 WRITE off=5632, sz=512 [eAvwDcIiu/ <more data follows>]
+
+
+****   W R I T E wcount is 270 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [5655572623346732345] on node [6964795370171651562]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-19], 512 bytes at position 5632
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-5 WRITE off=7680, sz=512 [@xb190s~xf <more data follows>]
+
+
+****   W R I T E wcount is 271 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [14696409179983337232]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [1506646333429210062] on node [14696409179983337232]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-5], 512 bytes at position 7680
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-18 WRITE off=5120, sz=512 [(H9e,BsHGY <more data follows>]
+
+
+****   W R I T E wcount is 272 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [291590886l] from node [3545255200l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [291590886l] on node [3545255200l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-18], 512 bytes at position 5120
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-1 READ off=2048, sz=512 [4N. +0:g|A <more data follows>]
+
+
+****   R E A D rcount is 31 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1865608158l] from node [3269911863l]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Correctly read from [cmpsc311-f20-sample-1], 512 bytes at position 2048
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-9 READ off=0, sz=512 [IC:ILuuYu8 <more data follows>]
+
+
+****   R E A D rcount is 32 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3881174257l] from node [3888356408l]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Correctly read from [cmpsc311-f20-sample-9], 512 bytes at position 0
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-8 WRITE off=2560, sz=512 [JTZgb=g4r~ <more data follows>]
+
+
+****   W R I T E wcount is 273 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [5626121289129438316] on node [8775596425547568186]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-8], 512 bytes at position 2560
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-4 WRITE off=1536, sz=512 [(AdRf=t=r. <more data follows>]
+
+
+****   W R I T E wcount is 274 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [11749934138239300465] on node [5094257917875172237]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-4], 512 bytes at position 1536
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-18 READ off=6656, sz=512 [DhC6Eo )#t <more data follows>]
+
+
+****   R E A D rcount is 33 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [988800785l] from node [1333264058l]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Correctly read from [cmpsc311-f20-sample-18], 512 bytes at position 6656
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-1 WRITE off=2048, sz=512 [4N. +0:g|A <more data follows>]
+
+
+****   W R I T E wcount is 275 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [13535798898924765619] on node [13064484679985841359]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-1], 512 bytes at position 2048
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-4 WRITE off=1024, sz=512 [e,*--0/ly/ <more data follows>]
+
+
+****   W R I T E wcount is 276 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1274884977l] from node [4113281933l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [1274884977l] on node [4113281933l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-4], 512 bytes at position 1024
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-9 WRITE off=512, sz=512 [&#6APis9aP <more data follows>]
+
+
+****   W R I T E wcount is 277 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [2918565956090876409] on node [11480589267645208256]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-9], 512 bytes at position 512
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-9 WRITE off=0, sz=512 [IC:ILuuYu8 <more data follows>]
+
+
+****   W R I T E wcount is 278 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [441995769l] from node [3056047808l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [441995769l] on node [3056047808l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-9], 512 bytes at position 0
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-17 READ off=9216, sz=512 [Yv6FP,ET&x <more data follows>]
+
+
+****   R E A D rcount is 34 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3602204842l] from node [2418705303l]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Correctly read from [cmpsc311-f20-sample-17], 512 bytes at position 9216
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-8 READ off=4608, sz=512 [MK;6f<L((j <more data follows>]
+
+
+****   R E A D rcount is 35 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [2155899688l] from node [3686752453l]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Correctly read from [cmpsc311-f20-sample-8], 512 bytes at position 4608
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-16 WRITE off=1536, sz=512 [l&SVhF|Ju= <more data follows>]
+
+
+****   W R I T E wcount is 279 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [10013279289812237127] on node [17458639069134365109]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-16], 512 bytes at position 1536
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-15 WRITE off=2048, sz=512 [6j$/j8r=!  <more data follows>]
+
+
+****   W R I T E wcount is 280 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [11013797269261375616]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [9771098714166194199] on node [11013797269261375616]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-15], 512 bytes at position 2048
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-16 WRITE off=2048, sz=512 [05Xge-Gd?3 <more data follows>]
+
+
+****   W R I T E wcount is 281 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [570997575l] from node [3380781493l]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgUpdateBlock: updated block [570997575l] on node [3380781493l]
+curr_elem is 32 maxElem is 32
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-16], 512 bytes at position 2048
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-16 READ off=1024, sz=512 [3VBLiU5}C_ <more data follows>]
+
+
+****   R E A D rcount is 36 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [1743664615l] from node [3455976463l]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Correctly read from [cmpsc311-f20-sample-16], 512 bytes at position 1024
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-20 WRITE off=2048, sz=512 [ez;pp!E/]O <more data follows>]
+
+
+****   W R I T E wcount is 282 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [1693605541127112603] on node [17458639069134365109]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-20], 512 bytes at position 2048
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-15 READ off=4608, sz=512 [y$j<|Zpz2! <more data follows>]
+
+
+****   R E A D rcount is 37 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [2893520889l] from node [3380781493l]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Correctly read from [cmpsc311-f20-sample-15], 512 bytes at position 4608
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-13 READ off=4096, sz=512 [I[0&Hg?E+< <more data follows>]
+
+
+****   R E A D rcount is 38 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [447826995l] from node [3410106185l]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Correctly read from [cmpsc311-f20-sample-13], 512 bytes at position 4096
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-2 WRITE off=3584, sz=512 [3 1H8O{^I8 <more data follows>]
+
+
+****   W R I T E wcount is 283 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: using new node [8572157927987001865]
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgCreateBlock: Create new block [10242088575996919976] on node [8572157927987001865]
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] Wrote data to file [cmpsc311-f20-sample-2], 512 bytes at position 3584
+Sat Nov 21 23:37:59 2020 [SG_SIMULATOR] CMPSCS311 workload op: cmpsc311-f20-sample-9 READ off=512, sz=512 [&#6APis9aP <more data follows>]
+
+
+****   R E A D rcount is 39 *****  
+
+Sat Nov 21 23:37:59 2020 [SG_SERVICE] sgObtainBlock: obtained block [3881174257l] from node [3888356408l]
+Sat Nov 21 23:37:59 2020 [ERROR] SG read data compare failed, aborting
+Sat Nov 21 23:37:59 2020 [ERROR] Read data     : [IC:ILuuYu8V:O/aGmKW2e@K9EP7e_]!glYW%F>B+z:_&/)K_MF/r955{hCU4+|L~%f_oO<|bo^G_afFvj@IZjJO-$C3QsoD{}=KO?wY7KT%F(/iav6[S{s <n7W~8iwZmDk,73@wm_=dFZ@D_i/>2SOl>{xMW(?j+6I7QS2+6oJ3xm;Jk}&0kk,fX4^zq~m_{)J:n6cI%=WZ~BmD9c0}_c/T>Vgz_YYhvB5Hhv>z0oh VK-];*x 92*rGm Pg(Ri(]k2VI@% 5RG,}KzZ5jIp,T%S0qB :gc={,>-rad&,WNb&&%aFMhYH;TQ<$O#=rjVioU*@[$aZ.D23uD%yzx4=I$&E1F~lO]/hkrZn^!rt@Dg%eC;;U2#N*{tJ+YRL2i@w:qmCjgO-PKTd3a}TBlt&s|O_K*lWq_q4SN| Gl4abdh1&Dq5G!=YK?czM]J,pLa+,Zq|>8tPZ,juH[?cnyXXi%i;Dk.8WPx7a$p<wKDL*s<o3(d,s5Zib(fL}x8gwL]
+Sat Nov 21 23:37:59 2020 [ERROR] Expected data : [&#6APis9aP,B}3^|r%8%4HHbRNSS1PHpmu,m%YDcR ET/h}{N^9n6p;2|NZ*_K<3MRc{r=ztl!M|=kRO;5ES68B7hk.yz.NUx;4CV2OHQxcV85nwsGVzHJq.T&[PVDfG%T2F0-Bsx<{O@mw&N?[d7L5?#8Mfq8fkQGxl2BkKwKV}(V;QSP03hDE6uBFR*RN>[;m$VD:|y-ri:iVyP2~Iek*_3;?LSk*M}/QAkzGfw#{@8!6<{m9um8}$yo9|^8:)UDP?2s9~lQ!+Bsj1GuklB>51Mqn+=!Rlvt6|],osQXXC}FAGgm;MEXOy@/(h@BU?su:CCkc1O%#;I[:kA9_M5>Uy?v5HdRjK#/5w8sOmM$IwDt*MkBj(?df@$P0J#jA5C1X]FOPa9XNBpkRbu[9RmL<K5/Ug{m{5WlFnx]|=3G7+^-=K^m9Bq^#.dF{1NeKX/-8Pqsg#s]}51nceP5f5wS$=1}(AJ@Me15&&j}7zzUq%AXzw%f/dUW5Xtu 2<uBf]
+Sat Nov 21 23:37:59 2020 [INFO] ScatterGather.com simulation failed.
+
+]0;shaunak@shaunak-Latitude-E7440: ~/cmpsc311/scattergather4-ssw5250[01;32mshaunak@shaunak-Latitude-E7440[00m:[01;34m~/cmpsc311/scattergather4-ssw5250[00m$ exit
+
+Script done on 2020-11-21 23:38:01-05:00 [COMMAND_EXIT_CODE="0"]

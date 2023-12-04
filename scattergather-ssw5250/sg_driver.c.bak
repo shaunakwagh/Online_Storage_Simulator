@@ -1,0 +1,386 @@
+////////////////////////////////////////////////////////////////////////////////
+//
+//  File           : sg_driver.c
+//  Description    : This file contains the driver code to be developed by
+//                   the students of the 311 class.  See assignment details
+//                   for additional information.
+//
+//   Author        : ????
+//   Last Modified : ????
+//
+
+// Include Files
+#include <string.h>
+#include <stdlib.h>
+
+// Project Includes 
+#include <sg_driver.h>
+#include <sg_defs.h>
+// Defines
+
+//
+// Global Data
+
+//
+// Functions
+
+////////////////////////////////////////////////////////////////////////////////
+//
+// Function     : serialize_sg_packet
+// Description  : Serialize a ScatterGather packet (create packet)
+//
+// Inputs       : loc - the local node identifier
+//                rem - the remote node identifier
+//                blk - the block identifier
+//                op - the operation performed/to be performed on block
+//                sseq - the sender sequence number
+//                rseq - the receiver sequence number
+//                data - the data block (of size SG_BLOCK_SIZE) or NULL
+//                packet - the buffer to place the data
+//                plen - the packet length (int bytes)
+// Outputs      : 0 if successfully created, -1 if failure
+
+SG_Packet_Status serialize_sg_packet( SG_Node_ID loc, SG_Node_ID rem, SG_Block_ID blk, 
+        SG_System_OP op, SG_SeqNum sseq, SG_SeqNum rseq, char *data, 
+        char *packet, size_t *plen ) {
+
+	
+
+
+
+
+	int8_t data_indicator = 0;
+
+/*
+	printf("data is %s\n", data);
+	printf("loc %ld\n", loc );
+	printf("rem %ld\n", rem );
+	printf("blk %lu\n", blk );
+	printf("op  %d\n", op);
+	printf("sseq %d\n", sseq);
+	printf("rseq %d\n", rseq);
+	printf("data %s\n", data);
+	printf("packet %p\n", packet);
+	printf("plen %p\n", plen );*/
+
+
+
+
+
+
+
+   
+	if (loc == 0)
+    	return(SG_PACKT_LOCID_BAD); 
+   // printf("11111\n");
+    if (rem == 0)
+    	return(SG_PACKT_REMID_BAD);
+   // printf("21111\n");
+    if (blk == 0)
+    	return(SG_PACKT_BLKID_BAD);
+  // printf("31111\n");
+    switch (op){
+    	case SG_INIT_ENDPOINT :
+    		break;
+    	case SG_STOP_ENDPOINT :
+    		break;
+    	case SG_CREATE_BLOCK  :
+    		break;
+    	case SG_UPDATE_BLOCK :
+    		break;
+    	case SG_OBTAIN_BLOCK   :
+    		break;
+    	case SG_DELETE_BLOCK   :
+    		break;
+    	case SG_MAXVAL_OP   :
+    		break;
+    	default :
+    		return(SG_PACKT_OPERN_BAD);
+    }
+
+   // printf("41111\n");
+
+    if (sseq == 0)
+    	return(SG_PACKT_SNDSQ_BAD);
+   // printf("51111\n");
+    if (rseq == 0)
+    	return(SG_PACKT_RCVSQ_BAD);
+   // printf("61111\n");
+    if (data != NULL){
+    //	printf("xxx\n");
+    	data_indicator = 1;
+    	//return(SG_PACKT_OK);
+    }
+    if (data == NULL){
+   // 	printf("yyy\n");
+    	data_indicator = 0;
+    	//return(SG_PACKT_BLKDT_BAD);
+
+    if (packet==NULL){
+    	return(SG_PACKT_PDATA_BAD);
+    	}
+
+
+
+   }
+
+     packet[SG_DATA_PACKET_SIZE];
+
+    uint32_t magic = SG_MAGIC_VALUE;
+
+
+    memcpy(&packet[0], &magic, 4);
+    //printf("magic\n");
+
+    memcpy(&packet[4], &loc, 8);
+   // printf("loc\n");
+
+    memcpy(&packet[12], &rem, 8);
+   // printf("rem\n");
+
+	memcpy(&packet[20], &blk, 8);
+	//printf("blk\n");
+
+	memcpy(&packet[28], &op, 4);
+	//printf("op\n");
+
+	memcpy(&packet[32], &sseq, 2);
+	//printf("sseq\n");
+
+	memcpy(&packet[34], &rseq, 2);
+	//printf("rseq\n");
+
+	memcpy(&packet[36], &data_indicator, 1);
+	//printf("date ind %d\n",data_indicator);
+
+
+
+	if (data_indicator == 1){
+	printf("%d\n", SG_BLOCK_SIZE);
+	memcpy(&packet[37], data,SG_BLOCK_SIZE );
+	memcpy(&packet[37 + SG_BLOCK_SIZE], &magic, 4);
+	//printf("data\n");
+	}
+	if(data_indicator ==0){
+	memcpy(&packet[37],&magic,4);
+	//printf(" last magic\n");
+	}
+
+	*plen=SG_DATA_PACKET_SIZE;
+
+
+	return(SG_PACKT_OK);
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+//
+// Function     : deserialize_sg_packet
+// Description  : De-serialize a ScatterGather packet (unpack packet)
+//
+// Inputs       : loc - the local node identifier
+//                rem - the remote node identifier
+//                blk - the block identifier
+//                op - the operation performed/to be performed on block
+//                sseq - the sender sequence number
+//                rseq - the receiver sequence number
+//                data - the data block (of size SG_BLOCK_SIZE) or NULL
+//                packet - the buffer to place the data
+//                plen - the packet length (int bytes)
+// Outputs      : 0 if successfully created, -1 if failure
+
+SG_Packet_Status deserialize_sg_packet( SG_Node_ID *loc, SG_Node_ID *rem, SG_Block_ID *blk, 
+        SG_System_OP *op, SG_SeqNum *sseq, SG_SeqNum *rseq, char *data, 
+        char *packet, size_t plen ) {
+
+
+
+    uint32_t magic = SG_MAGIC_VALUE;
+    int8_t data_indicator ;
+
+
+   // printf("magic is %d\n", magic);
+
+	memcpy(&magic,&packet[0],4);
+	//printf("d magic is %d\n", magic);
+
+
+	
+	memcpy(loc,&packet[4],8);
+	// printf("d loc %ld\n", *loc);
+
+	memcpy(rem,&packet[12],8);
+	// printf("d rem %ld\n", *rem);
+
+
+
+	memcpy(blk,&packet[20],8);
+	// printf("d blk\n");
+
+
+	memcpy(op,&packet[28],4);
+	// printf("d op\n");
+
+
+	memcpy(sseq,&packet[32],2);
+	// printf("d sseq\n");
+
+	memcpy(rseq,&packet[34],2);
+	// printf("d rseq\n");
+
+	memcpy(&data_indicator,&packet[36],1);
+	// printf("d data ind\n");
+	// printf("data_indicator is %d\n", data_indicator);
+
+
+/*
+	printf("loc %ld\n", *loc );
+	printf("rem %ld\n", *rem );
+	printf("blk %lu\n", *blk );
+	printf("op  %d\n", *op);
+	printf("sseq %d\n", *sseq);
+	printf("rseq %d\n", *rseq);
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+	if (data_indicator==1){
+	memcpy(data,&packet[37],SG_BLOCK_SIZE);
+	memcpy(&magic,&packet[37 + SG_BLOCK_SIZE],sizeof(magic));
+    // printf("d data and magic\n");
+	}
+	if (data_indicator==0){
+	//printf("data is 0 \n");
+	memcpy(&magic,&packet[37],4);
+	// printf("d data is null so magic\n");
+	}
+
+	if (packet == NULL)
+	{
+		return( SG_PACKT_PDATA_BAD);
+	}
+
+if (*loc == 0)
+    	return(SG_PACKT_LOCID_BAD); 
+    //printf("11111\n");
+    if (*rem == 0)
+    	return(SG_PACKT_REMID_BAD);
+   // printf("21111\n");
+    if (*blk == 0)
+    	return(SG_PACKT_BLKID_BAD);
+    //printf("31111\n");
+    switch (*op){
+    	case SG_INIT_ENDPOINT :
+    		break;
+    	case SG_STOP_ENDPOINT :
+    		break;
+    	case SG_CREATE_BLOCK  :
+    		break;
+    	case SG_UPDATE_BLOCK :
+    		break;
+    	case SG_OBTAIN_BLOCK   :
+    		break;
+    	case SG_DELETE_BLOCK   :
+    		break;
+    	case SG_MAXVAL_OP   :
+    		break;
+    	default :
+    		return(SG_PACKT_OPERN_BAD);
+    }
+
+    //printf("41111\n");
+
+    if (*sseq == 0)
+    	return(SG_PACKT_SNDSQ_BAD);
+    //printf("51111\n");
+    if (*rseq == 0)
+    	return(SG_PACKT_RCVSQ_BAD);
+   // printf("61111\n");
+    
+    if (magic != SG_MAGIC_VALUE)
+    {
+    	return (SG_PACKT_PDATA_BAD);
+    }
+
+   // printf("71111\n");
+
+
+    if(data_indicator==1 && data == NULL)
+    {
+    	//printf("no dataaa\n");
+    	return (SG_PACKT_BLKDT_BAD);
+    	//printf("There is no data\n");
+    }
+    //printf("81111\n");
+
+
+
+    if (plen != (41 + SG_BLOCK_SIZE) )
+    {
+    	return (SG_PACKT_BLKLN_BAD); 
+    }
+
+    //printf("91111\n");
+
+
+
+
+
+	return(SG_PACKT_OK);
+
+
+    
+}
+        
+        

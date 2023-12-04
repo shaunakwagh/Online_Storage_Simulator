@@ -1,0 +1,127 @@
+Mon Sep 21 15:49:16 2020 [INFO] ScatterGather.com simulation completed successfully!!!
+
+Mon Sep 21 15:49:31 2020 [INFO] Running unit tests ....
+Mon Sep 21 15:49:31 2020 [INFO] ScatterGather: beginning unit tests ...
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [ERROR] serialize_sg_packet: bad sender sequence number [0]
+Mon Sep 21 15:49:39 2020 [INFO] serialize_sg_packet error condition [5] (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [ERROR] deserialize_sg_packet: bad block ID [0]
+Mon Sep 21 15:49:39 2020 [INFO] deserialize_sg_packet error condition [3] (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [ERROR] serialize_sg_packet: bad sender sequence number [0]
+Mon Sep 21 15:49:39 2020 [INFO] serialize_sg_packet error condition [5] (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [ERROR] deserialize_sg_packet: bad sender sequence num [0]
+Mon Sep 21 15:49:39 2020 [INFO] deserialize_sg_packet error condition [5] (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [ERROR] deserialize_sg_packet: bad receiver sequence num [0]
+Mon Sep 21 15:49:39 2020 [INFO] deserialize_sg_packet error condition [6] (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [ERROR] deserialize_sg_packet: bad block ID [0]
+Mon Sep 21 15:49:39 2020 [INFO] deserialize_sg_packet error condition [3] (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [ERROR] serialize_sg_packet: bad sender sequence number [0]
+Mon Sep 21 15:49:39 2020 [INFO] serialize_sg_packet error condition [5] (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [ERROR] serialize_sg_packet: bad sender sequence number [0]
+Mon Sep 21 15:49:39 2020 [INFO] serialize_sg_packet error condition [5] (single packet).
+Mon Sep 21 15:49:39 2020 [ERROR] serialize_sg_packet: bad remote ID [0]
+Mon Sep 21 15:49:39 2020 [INFO] serialize_sg_packet error condition [2] (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [ERROR] deserialize_sg_packet: bad op code (212)
+Mon Sep 21 15:49:39 2020 [INFO] deserialize_sg_packet error condition [4] (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [ERROR] deserialize_sg_packet: bad op code (212)
+Mon Sep 21 15:49:39 2020 [INFO] deserialize_sg_packet error condition [4] (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [ERROR] deserialize_sg_packet: bad block ID [0]
+Mon Sep 21 15:49:39 2020 [INFO] deserialize_sg_packet error condition [3] (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [ERROR] serialize_sg_packet: bad local ID [0]
+Mon Sep 21 15:49:39 2020 [INFO] serialize_sg_packet error condition [1] (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [ERROR] serialize_sg_packet: bad local ID [0]
+Mon Sep 21 15:49:39 2020 [INFO] serialize_sg_packet error condition [1] (single packet).
+Mon Sep 21 15:49:39 2020 [ERROR] deserialize_sg_packet: bad local ID [0]
+Mon Sep 21 15:49:39 2020 [INFO] deserialize_sg_packet error condition [1] (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [ERROR] serialize_sg_packet: bad sender sequence number [0]
+Mon Sep 21 15:49:39 2020 [INFO] serialize_sg_packet error condition [6] (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [ERROR] deserialize_sg_packet: bad receiver sequence num [0]
+Mon Sep 21 15:49:39 2020 [INFO] deserialize_sg_packet error condition [6] (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [ERROR] deserialize_sg_packet: bad local ID [0]
+Mon Sep 21 15:49:39 2020 [INFO] deserialize_sg_packet error condition [1] (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [ERROR] serialize_sg_packet: bad remote ID [0]
+Mon Sep 21 15:49:39 2020 [INFO] serialize_sg_packet error condition [2] (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [ERROR] serialize_sg_packet: bad block ID [0]
+Mon Sep 21 15:49:39 2020 [INFO] serialize_sg_packet error condition [3] (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] sg_packet proccessing worked correctly (single packet).
+Mon Sep 21 15:49:39 2020 [INFO] ScatterGather: exiting unit tests.
+Mon Sep 21 15:49:39 2020 [INFO] Unit tests completed successfully.
+
